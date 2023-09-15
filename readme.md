@@ -224,7 +224,7 @@ def home():
 
 - just added the {% extends 'layout.html' %} tag. which will render the navbar from the layout.html file. if we go to the home page we will see the navbar
 
-- But the is problem. lets change <h1> in the body of the home page.
+- But the is problem. lets change h1 in the body of the home page.
 
 ```html
 <h1>Home page</h1>
@@ -258,9 +258,9 @@ def home():
 - now if we edit the navbar we will see the changes everywhere.
 
 ```html
-.....
+
 <h1>LOGO</h1>
-.....
+
 ```
 
 - i kept everything same but changed the <h1> tag to LOGO.
